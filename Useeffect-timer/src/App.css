@@ -1,0 +1,51 @@
+.timer-card {
+  width: min(900px, calc(100% - 32px));
+  padding: 40px 28px;
+  text-align: center;
+  background: #f3f7ff;
+  border: 1px solid #d4dbe7;
+  border-radius: 10px;
+  box-shadow: 0 8px 20px #00000012;
+}
+
+h1 {
+  margin: 0 0 30px;
+  color: #243b5d;
+  font-size: clamp(28px, 5vw, 52px);
+}
+
+.time {
+  margin-bottom: 22px;
+  font-size: clamp(44px, 10vw, 92px);
+  font-weight: 400;
+  font-variant-numeric: tabular-nums;
+}
+
+p {
+  max-width: 620px;
+  margin: 0 auto 28px;
+  font-size: clamp(16px, 2.5vw, 26px);
+  line-height: 1.5;
+}
+
+button {
+  display: block;
+  margin: 12px auto;
+  padding: 10px 18px;
+  border: 0;
+  border-radius: 6px;
+  background: #4b83c4;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+button.reset {
+  background: white;
+  color: #111;
+  border: 1px solid #888;
+}
+
+button:hover {
+  opacity: 0.88;
+}
